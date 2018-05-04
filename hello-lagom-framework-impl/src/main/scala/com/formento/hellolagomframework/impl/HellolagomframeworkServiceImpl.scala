@@ -1,7 +1,7 @@
 package com.formento.hellolagomframework.impl
 
 import com.formento.hellolagomframework.api
-import com.formento.hellolagomframework.api.{HellolagomframeworkService}
+import com.formento.hellolagomframework.api.HellolagomframeworkService
 import com.lightbend.lagom.scaladsl.api.ServiceCall
 import com.lightbend.lagom.scaladsl.api.broker.Topic
 import com.lightbend.lagom.scaladsl.broker.TopicProducer

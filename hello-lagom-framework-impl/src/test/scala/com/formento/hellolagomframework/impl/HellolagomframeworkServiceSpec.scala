@@ -1,9 +1,9 @@
 package com.formento.hellolagomframework.impl
 
+import com.formento.hellolagomframework.api._
 import com.lightbend.lagom.scaladsl.server.LocalServiceLocator
 import com.lightbend.lagom.scaladsl.testkit.ServiceTest
 import org.scalatest.{AsyncWordSpec, BeforeAndAfterAll, Matchers}
-import com.formento.hellolagomframework.api._
 
 class HellolagomframeworkServiceSpec extends AsyncWordSpec with Matchers with BeforeAndAfterAll {
 

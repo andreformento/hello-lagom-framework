@@ -1,12 +1,12 @@
 package com.formento.hellolagomframeworkstream.impl
 
-import com.lightbend.lagom.scaladsl.api.ServiceLocator.NoServiceLocator
-import com.lightbend.lagom.scaladsl.server._
-import com.lightbend.lagom.scaladsl.devmode.LagomDevModeComponents
-import play.api.libs.ws.ahc.AhcWSComponents
-import com.formento.hellolagomframeworkstream.api.HellolagomframeworkStreamService
 import com.formento.hellolagomframework.api.HellolagomframeworkService
+import com.formento.hellolagomframeworkstream.api.HellolagomframeworkStreamService
+import com.lightbend.lagom.scaladsl.api.ServiceLocator.NoServiceLocator
+import com.lightbend.lagom.scaladsl.devmode.LagomDevModeComponents
+import com.lightbend.lagom.scaladsl.server._
 import com.softwaremill.macwire._
+import play.api.libs.ws.ahc.AhcWSComponents
 
 class HellolagomframeworkStreamLoader extends LagomApplicationLoader {
 

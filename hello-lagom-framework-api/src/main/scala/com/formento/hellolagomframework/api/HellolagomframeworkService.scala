@@ -6,7 +6,7 @@ import com.lightbend.lagom.scaladsl.api.broker.kafka.{KafkaProperties, Partition
 import com.lightbend.lagom.scaladsl.api.{Service, ServiceCall}
 import play.api.libs.json.{Format, Json}
 
-object HellolagomframeworkService  {
+object HellolagomframeworkService {
   val TOPIC_NAME = "greetings"
 }
 
@@ -51,9 +51,9 @@ trait HellolagomframeworkService extends Service {
           // to that user), we configure a partition key strategy that extracts the
           // name as the partition key.
           .addProperty(
-            KafkaProperties.partitionKeyStrategy,
-            PartitionKeyStrategy[GreetingMessageChanged](_.name)
-          )
+          KafkaProperties.partitionKeyStrategy,
+          PartitionKeyStrategy[GreetingMessageChanged](_.name)
+        )
       )
       .withAutoAcl(true)
     // @formatter:on
@@ -73,7 +73,6 @@ object GreetingMessage {
     */
   implicit val format: Format[GreetingMessage] = Json.format[GreetingMessage]
 }
-
 
 
 /**
