@@ -11,3 +11,13 @@ bin
 .factorypath
 .settings
 logs
+
+######################
+# Intellij
+######################
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
