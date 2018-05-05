@@ -4,8 +4,8 @@ Simple example with Lagom Framework
 
 See implementation with
 
-- [Scala](whith-scala)
-- [Java](whith-java)
+- [Scala](with-scala)
+- [Java](with-java)
 
 ## Requirements
 
