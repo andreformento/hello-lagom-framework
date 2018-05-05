@@ -22,7 +22,7 @@ sbt
 > runAll
 ```
 
-To see your new child, go to: http://localhost:9000/api/hello/World
+To see your new child, go to: http://localhost:9000/api/hello/Formento
 
 ## References
 
